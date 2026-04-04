@@ -1,2 +1,2 @@
-# GNN_FInal_Project
-GNN_FInal_Project
+# GNN_Final_Project
+GNN_Final_Project
