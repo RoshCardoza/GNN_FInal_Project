@@ -114,3 +114,53 @@ GNN_FInal_Project/
 ├── Lesion method.ipynb
 └── README.md
 
+---
+
+## How to Run the Project
+
+### 1. Clone the repository
+bash
+git clone https://github.com/RoshCardoza/GNN_FInal_Project.git
+cd GNN_FInal_Project
+
+
+### 2. Download the BUSI dataset
+Download the dataset from Kaggle and place it in a local folder such as:
+
+text
+dataset/
+├── benign/
+├── malignant/
+└── normal/
+
+
+### 3. Update dataset paths in the notebooks
+The notebooks currently use *hardcoded local Windows paths*, for example:
+
+python
+DATA_DIR = r"C:\Users\ROSHAL CARDOZA\Desktop\WS25-26\Final_Project\GNN_FInal_Project\dataset"
+
+
+Before running the notebooks, replace this with the path on your own machine.
+
+### 4. Install dependencies
+Typical dependencies used in the notebooks:
+
+bash
+pip install torch torchvision numpy matplotlib pillow scikit-learn
+
+
+### 5. Run the notebooks
+Suggested order:
+
+#### Option A — main segmentation study
+Run:
+- src/create_synthetic_data_lesion.ipynb
+
+This is the best notebook to use for the main project story because it contains the clearest end-to-end low-data segmentation workflow.
+
+#### Option B — GAN extension
+Run:
+- src/create_synthetic_data_gan.ipynb
+
+Use this notebook if you want to reproduce the GAN-based synthetic data experiment.
