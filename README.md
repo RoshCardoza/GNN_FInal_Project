@@ -28,8 +28,7 @@ Instead of optimizing only for visual quality of generated images, the project e
 This project uses the **BUSI (Breast Ultrasound Images Dataset)**, a public breast ultrasound dataset containing three categories: **benign**, **malignant**, and **normal** images. The commonly cited BUSI release contains **780 images** collected from **600 female patients**, with **437 benign**, **210 malignant**, and **133 normal** images. 
 
 Dataset source:
-- Kaggle BUSI dataset: citeturn900742search0
-- Kaggle notebook reference used for dataset selection: citeturn164483view1
+- Kaggle BUSI dataset:https://www.kaggle.com/datasets/sabahesaraki/breast-ultrasound-images-dataset
 
 ### How the dataset is used in this project
 
