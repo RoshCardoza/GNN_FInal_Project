@@ -8,8 +8,8 @@ The repository contains experiments for three training settings:
 2. **Classical augmentation** – train U-Net with standard geometric augmentation  
 3. **Synthetic augmentation** – expand the low-data training set using synthetic lesion samples  
 
-> This project focuses on **generated / synthetic augmentation** for medical image segmentation.  
-> It is **not** a graph neural network project.
+> This project is developed in the context of **Generative Neural Networks**, with a focus on **synthetic data augmentation** for medical image segmentation.  
+
 
 ---
 
