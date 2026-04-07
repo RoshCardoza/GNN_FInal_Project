@@ -113,12 +113,7 @@ cd GNN_FInal_Project
 ### 2. Download the BUSI dataset
 Download the dataset from Kaggle and place it in a local folder such as:
 
-```text
-dataset/
-├── benign/
-├── malignant/
-└── normal/
-
+dataset==> benign, malignant, Normal
 
 ### 3. Update dataset paths in the notebooks
 DATA_DIR = r"C:\Users\ROSHAL CARDOZA\Desktop\WS25-26\Final_Project\GNN_FInal_Project\dataset"
