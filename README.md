@@ -102,17 +102,6 @@ A second notebook explores a GAN-based strategy:
 
 This GAN workflow is included as an exploratory extension and is less stable than the copy-paste pipeline.
 
----
-
-## Repository Structure
-
-GNN_FInal_Project/
-├── src/
-│   ├── create_synthetic_data_lesion.ipynb
-│   └── create_synthetic_data_gan.ipynb
-├── Lesion method.ipynb
-└── README.md
-
 
 ## How to Run the Project
 
@@ -147,3 +136,13 @@ src/create_synthetic_data_lesion.ipynb
 
 Option B — GAN extension:
 src/create_synthetic_data_gan.ipynb
+
+## Repository Structure
+
+```text
+GNN_FInal_Project/
+├── src/
+│   ├── create_synthetic_data_lesion.ipynb
+│   └── create_synthetic_data_gan.ipynb
+├── Lesion method.ipynb
+└── README.md
